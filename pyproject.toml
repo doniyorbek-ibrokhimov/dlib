@@ -1,4 +1,17 @@
+
 [build-system]
 requires = ["setuptools", "wheel", "packaging"]
 build-backend = "setuptools.build_meta"
+
+[dependency-groups]
+dev = [
+    "dotenv>=0.9.9",
+    "face-recognition>=1.3.0",
+    "fastapi>=0.128.0",
+    "opencv-python>=4.12.0.88",
+    "packaging>=25.0",
+    "redis>=7.1.0",
+    "setuptools>=80.9.0",
+    "uvicorn>=0.40.0",
+]
 
